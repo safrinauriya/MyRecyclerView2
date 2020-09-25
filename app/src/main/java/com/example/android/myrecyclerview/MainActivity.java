@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.action_grid:
                 showRecyclerGrid();
-                title = "ModeGrid";
+                title = "Mode Grid";
                 break;
             case R.id.action_cardview:
                 showRecyclerCardView();
