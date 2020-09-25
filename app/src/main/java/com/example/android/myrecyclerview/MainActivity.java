@@ -3,6 +3,7 @@ package com.example.android.myrecyclerview;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -33,12 +34,26 @@ public class MainActivity extends AppCompatActivity {
         rvHeroes.setLayoutManager(new LinearLayoutManager(this));
         ListHeroAdapter listHeroAdapter = new ListHeroAdapter(list);
         rvHeroes.setAdapter(listHeroAdapter);
+
+        listHeroAdapter.setOnItemClickCallback(new ListHeroAdapter.OnItemClickCallBack() {
+            @Override
+            public void onItemClicked(Hero data) {
+                showSelectHero(data);
+            }
+        });
     }
 
     private void showRecyclerGrid() {
         rvHeroes.setLayoutManager(new GridLayoutManager(this, 2));
         GridHeroAdapter gridHeroAdapter = new GridHeroAdapter(list);
         rvHeroes.setAdapter(gridHeroAdapter);
+
+        gridHeroAdapter.setOnItemClickCallback(new GridHeroAdapter.OnItemClickBack() {
+            @Override
+            public void onItemClicked(Hero data) {
+                showSelectHero(data);
+            }
+        });
     }
 
     private void showRecyclerCardView() {
@@ -46,12 +61,6 @@ public class MainActivity extends AppCompatActivity {
         CardViewHeroAdapter cardViewHeroAdapter = new CardViewHeroAdapter(list);
         rvHeroes.setAdapter(cardViewHeroAdapter);
 
-    }
-
-    private void setActionBarTitle(String title) {
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle(title);
-        }
     }
 
     @Override
@@ -81,6 +90,17 @@ public class MainActivity extends AppCompatActivity {
                 title = "Mode CardView";
                 break;
         }
+        setActionBarTitle(title);
+    }
+
+    private void setActionBarTitle(String title) {
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(title);
+        }
+    }
+
+    private void showSelectHero(Hero hero) {
+        Toast.makeText(this, "Kamu memilih " + hero.getName(), Toast.LENGTH_SHORT).show();
     }
 
 }
