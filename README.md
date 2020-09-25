@@ -17,13 +17,13 @@ Menampilkan sejumlah informasi dalam bentuk list. List adalah komponen yang mena
 ## Tampilan Grid Mode
 Tampilan grid mode menampilkan menu dalam bentuk foto/grid.Perbedaan dari yang sebelumnya terletak pada TITLE/JUDUL halaman di aplikasi setiap perubahan bentuk dari RecyclerView.
 
-![image](https://user-images.githubusercontent.com/60589670/94274383-d9474200-ff6f-11ea-83c3-0372a2db9a1f.png)
+![Screenshot_20200925-172815_MyRecyclerView](https://user-images.githubusercontent.com/60589670/94280516-b0c34600-ff77-11ea-994b-884bedd78355.jpg)
 ## Tampilan Card View
 CardView berfungsi sebagai wrapper/frame layout yang akan membungkus layout di dalamnya dengan desain menyerupai kartu. CardView membungkus suatu layout dan biasanya dipakai sebagai container untuk setiap item di dalam ListView atau RecyclerView.
 [Selengkapnya..](https://developer.android.com/guide/topics/ui/layout/cardview?hl=id)
 [Lebih detail](https://medium.com/easyread/tutorial-android-recyclerview-dan-cardview-9a62aaa6cc0c)
 
-
+![Screenshot_20200925-172835_MyRecyclerView](https://user-images.githubusercontent.com/60589670/94280588-c7699d00-ff77-11ea-8f7f-c209e76df18b.jpg)
 ## Tampilan Full
 ![Screenshot_20200918-201625_MyRecyclerView](https://user-images.githubusercontent.com/60589670/93604137-2dda4280-f9ef-11ea-9665-0a6ed5bc11c9.jpg)
 ## Tampilan Menu
