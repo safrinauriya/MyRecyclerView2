@@ -28,11 +28,11 @@ CardView berfungsi sebagai wrapper/frame layout yang akan membungkus layout di d
 Listview memiliki listener untuk melakukan sebuah aksi ketika salah satu item pada list dipilih. Untuk menandai berjalannya sebuah aksi akan muncul Toast. Toast adalah sebuah mekanisme di Andorid untuk menampilkan popup kecil sebagai sebuah feedback dan akan menghilang setelah beberapa waktu.[Selengkapnya..](https://developer.android.com/guide/topics/ui/notifiers/toasts)
 Jika menekan list pahlawan/foto (grid)/card maka akan muncul notifikasi Toast sebagai aksi.
 
-*Tampilan Toast Pada Mode List
+* Tampilan Toast Pada Mode List
 ![Screenshot_20200925-173642_MyRecyclerView](https://user-images.githubusercontent.com/60589670/94282294-d6514f00-ff79-11ea-80ea-1838f27faf6a.jpg)
-*Tampilan Toast Pada Mode Grid
+* Tampilan Toast Pada Mode Grid
 ![Screenshot_20200925-173606_MyRecyclerView](https://user-images.githubusercontent.com/60589670/94282358-eec16980-ff79-11ea-9d1c-627d7a1d57b9.jpg)
-*Tampilan Toast Pada CardView
+* Tampilan Toast Pada CardView
 ![Screenshot_20200925-172844_MyRecyclerView](https://user-images.githubusercontent.com/60589670/94282326-e36e3e00-ff79-11ea-9127-c3fc3a8e1bc5.jpg)
 
 Terima Kasih
