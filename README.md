@@ -5,10 +5,10 @@ Terlebih jika Anda memiliki koleksi data dengan elemen yang mampu berubah-ubah s
 [Informasi Selengkapnya](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=id)
 ## Perbedaan
 Perbedaan dengan yang sebelumnya yaitu:
-- [x]Penambahan tampilan judul halaman aplikasi di setiap perubahan bentuk RecyclerView
-- [x]Penambahan mode CARD VIEW
-- [x]Penambahan item OnClickListener pada ListView
-- [x]Tampilan Toast sebagai aksi 
+- [x] Penambahan tampilan judul halaman aplikasi di setiap perubahan bentuk RecyclerView
+- [x] Penambahan mode CARD VIEW
+- [x] Penambahan item OnClickListener pada ListView
+- [x] Tampilan Toast sebagai aksi 
 ## Tampilan List Mode
 Menampilkan sejumlah informasi dalam bentuk list. List adalah komponen yang menampilkan kumpulan item dalam bentuk daftar, sedangkan list item adalah komponen yang merepresentasikan tiap-tiap item di dalam suatu daftar. Perbedaan dari yang sebelumnya terletak pada TITLE/JUDUL halaman di aplikasi setiap perubahan bentuk dari RecyclerView.
 [Selengkapnya..](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=id)
@@ -24,7 +24,8 @@ CardView berfungsi sebagai wrapper/frame layout yang akan membungkus layout di d
 [Lebih detail](https://medium.com/easyread/tutorial-android-recyclerview-dan-cardview-9a62aaa6cc0c)
 
 ![Screenshot_20200925-172835_MyRecyclerView](https://user-images.githubusercontent.com/60589670/94280588-c7699d00-ff77-11ea-8f7f-c209e76df18b.jpg)
-## Tampilan Full
+## List View dan Toast
+Listview memiliki listener untuk melakukan sebuah aksi ketika salah satu item pada list dipilih. Untuk menandai berjalannya sebuah aksi akan muncul Toast. Toast adalah sebuah mekanisme di Andorid untuk menampilkan popup kecil sebagai sebuah feedback dan akan menghilang setelah beberapa waktu.[Selengkapnya..](https://developer.android.com/guide/topics/ui/notifiers/toasts)
 ![Screenshot_20200918-201625_MyRecyclerView](https://user-images.githubusercontent.com/60589670/93604137-2dda4280-f9ef-11ea-9665-0a6ed5bc11c9.jpg)
 ## Tampilan Menu
 ![Screenshot_20200918-201732_MyRecyclerView](https://user-images.githubusercontent.com/60589670/93604151-33378d00-f9ef-11ea-8f72-b8d9a916fcff.jpg)
