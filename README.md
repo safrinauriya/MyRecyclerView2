@@ -6,8 +6,7 @@ Terlebih jika Anda memiliki koleksi data dengan elemen yang mampu berubah-ubah s
 ## Tampilan List Mode
 List adalah komponen yang menampilkan kumpulan item dalam bentuk daftar, sedangkan list item adalah komponen yang merepresentasikan tiap-tiap item di dalam suatu daftar.
 
-![Screenshot_20200918-201642_MyRecyclerView](https://user-images.githubusercontent.com/60589670/93603995-fb304a00-f9ee-11ea-99fa-f97ab4afec56.jpg)
-![Screenshot_20200918-201655_MyRecyclerView](https://user-images.githubusercontent.com/60589670/93604002-fcfa0d80-f9ee-11ea-9687-10e98ecd5073.jpg)
+![image](https://user-images.githubusercontent.com/60589670/94274058-68078f00-ff6f-11ea-8f00-22a81eee432e.png)
 ## Tampilan Grid Mode
 Tampilan grid mode menampilkan menu dalam bentuk foto/grid.
 
